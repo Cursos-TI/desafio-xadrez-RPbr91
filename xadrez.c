@@ -1,10 +1,11 @@
-    #include <stdio.h>
-    
-    int main() {
+#include <stdio.h>
 
-
-
-
+int main() {
+    // Movimento da torre com for
+    int casa_torre = 5;
+    for (int i = 0; i < casa_torre; i++) {
+        printf("Direita\n");
+    }
 
     // Movimento do bispo com while
     int casa_bispo = 1;
@@ -21,12 +22,6 @@
         printf("Esquerda\n");
         casa_rainha++;
     } while (casa_rainha <= 8);
-
-
-
-
-
-
 
       return 0;
 }
